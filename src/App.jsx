@@ -1,10 +1,11 @@
-import { useState } from "react";
 import "./App.css";
+import MainCard from "./components/mainCard";
 
 function App() {
-
   return (
-    <h1 className="text-3xl font-bold underline text-blue-500">Hello world!</h1>
+    <div className="bg-main-bg w-full h-screen grid place-items-center">
+      <MainCard />
+    </div>
   );
 }
 
