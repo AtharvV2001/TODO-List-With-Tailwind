@@ -8,13 +8,13 @@ const DateComponent = () => {
       <p className="text-[#6D697A] font-bold text-4xl">
         {dateToDisplay.getDate()}
       </p>
-      <p className="text-[#DAE3EE] font-semibold text-lg">
+      <p className="text-[#DAE3EE] font-semibold text-xl">
         {getDay(dateToDisplay.getDay())}
       </p>
       <p className="text-[#6D697A] font-bold text-4xl">
         {getMonth(dateToDisplay.getMonth())}
       </p>
-      <p className="text-[#DAE3EE] font-semibold text-lg">
+      <p className="text-[#DAE3EE] font-semibold text-xl">
         {dateToDisplay.getFullYear()}
       </p>
     </div>
