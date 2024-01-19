@@ -11,7 +11,7 @@ const TodoItem = ({ item, onDelete, onUpdate, onToggle, onUpdateConfrim }) => {
 
   const handleUpdate = () => {
     if (updateText === "") {
-      toast.error("Task Sould not be Empty");
+      toast.error("Task Should not be Empty");
       return;
     }
 
